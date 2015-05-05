@@ -1,0 +1,79 @@
+i {
+	font-size: 2em;
+}
+
+.one, .two, .three, .four, .third {
+	display: none;
+}
+
+body {
+	background-color: #517fa4;
+	font-family: 'Lora', serif;
+}
+
+*, h1, h2, h3, h4, ul, a, li {
+	font-family: 'Lora', serif;
+}
+
+.bcfade {
+background-color: #FFFFFF;
+-webkit-transition: background 0.5s linear;
+-moz-transition: background 0.5s linear;
+-ms-transition: background 0.5s linear;
+-o-transition: background 0.5s linear;
+transition: background 0.5s linear;
+}
+
+.final {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #FFFFFF;
+}
+
+.final h3, .final *, .final p, .final a {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+i.fi-social-facebook {
+	color: #3b5998;
+}
+
+i.fi-social-google-plus {
+	color: #dd4b39;
+}
+
+i.fi-social-instagram {
+	color: #517fa4;
+}
+
+i.fi-social-linkedin {
+	color: #007bb6;
+}
+
+i.fi-social-pinterest {
+	color: #cb2027;
+}
+
+i.fi-social-twitter {
+	color: #00aced;
+}
+
+a {
+	color: #000000;
+}
+
+i.fi-social-snapchat {
+	color: #fffc00;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+i.fi-social-stumbleupon {
+	color: #EB4823;
+}
+
+#email {
+	display: inline;
+}
+
+.four {
+	margin-bottom: 5%;
+}
