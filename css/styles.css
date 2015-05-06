@@ -29,7 +29,7 @@ transition: background 0.5s linear;
 	background-color: #FFFFFF;
 }
 
-.final h3, .final *, .final p, .final a {
+.final h3, .final *, .final p, .final a, .final .accordion .accordion-navigation > a, .accordion dd > a {
 	font-family: 'Ubuntu', sans-serif;
 }
 
@@ -37,37 +37,16 @@ i.fi-social-facebook {
 	color: #3b5998;
 }
 
-i.fi-social-google-plus {
-	color: #dd4b39;
-}
-
-i.fi-social-instagram {
-	color: #517fa4;
-}
-
 i.fi-social-linkedin {
 	color: #007bb6;
-}
-
-i.fi-social-pinterest {
-	color: #cb2027;
 }
 
 i.fi-social-twitter {
 	color: #00aced;
 }
 
-a {
+i.fi-social-github {
 	color: #000000;
-}
-
-i.fi-social-snapchat {
-	color: #fffc00;
-	text-shadow: 1px 1px 1px #000000;
-}
-
-i.fi-social-stumbleupon {
-	color: #EB4823;
 }
 
 #email {
@@ -76,4 +55,14 @@ i.fi-social-stumbleupon {
 
 .four {
 	margin-bottom: 5%;
+}
+
+.ani {
+	transition: transform .5s, text-shadow .5s;
+}
+
+.ani:hover {
+	display: inline-block;
+	transform: rotate(360deg);
+	text-shadow: 1px 1px 1px #000000;
 }
