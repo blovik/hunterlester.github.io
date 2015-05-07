@@ -29,7 +29,4 @@ $(document).ready(function(){
 			$('footer').show();
 		});
 	});
-	$('.final').on('click', function(){
-		$(this).css('opacity', 0.3)
-	});
 });

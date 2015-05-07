@@ -49,6 +49,18 @@ i.fi-social-github {
 	color: #000000;
 }
 
+.soci {
+	position: fixed;
+	top: 15%;
+	background-color: #FFFFFF;
+	width: 5%;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.soci p i {
+	font-size: 2em;
+}
+
 #email {
 	display: inline;
 }
