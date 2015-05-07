@@ -65,6 +65,10 @@ i.fi-social-github {
 	display: inline;
 }
 
+#name {
+	margin-top: 3%;
+}
+
 .four {
 	margin-bottom: 5%;
 }
